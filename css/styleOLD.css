@@ -1,0 +1,157 @@
+
+body, li, nav, p, u, ul, var {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+}
+/* NAV*/
+body {
+    background-color: #E0E0E0;
+	/*padding: 0px 0px 0px 0px;*/
+    background-image: url("../images/music.png");
+    background-repeat: repeat;
+    color: #fff;
+	margin: 0px 0px 0px -40px;
+}
+
+.menu-header{
+	border: 0px solid #000;
+	background-color: #E0E0E0;
+	box-shadow: 1px 1px 30px #868686;
+	padding: 15px 0px 10px 0px;
+	height: 25px;
+}
+.mainWrapper{
+	position:relative;
+	text-align:center;
+	/*border:1px solid #E0E0E0;*/
+	/*border: 10px solid red;*/
+	margin:0 18%;
+	/*overflow:hidden;*/
+}
+
+
+#top_nav {
+    /*color: #fff;*/
+    display: block;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    position: fixed;
+    text-align: center;
+	/*margin-top: -75px;*/
+	margin: -75px 0px 0px 40px;
+    width: 100.3%;
+	min-width: 295px;
+    z-index: 999999;
+}
+#top_nav li {
+    color: #fff;
+    display: inline;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    list-style: outside none none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+#top_nav li a {
+    color: #868686;
+    text-decoration: none;
+}
+#top_nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#top_nav ul ul {
+    display: list-item;
+    list-style: outside none none;
+}
+
+
+.name{
+	float: left;
+	border: 0px solid #000; 
+	color: #868686;
+	text-align: center;
+	text-shadow: 2px 1px #fff;
+    font-family: "Oswald",sans-serif;
+	font-size: 300%;
+    font-style: normal;
+    font-weight: 400;
+	line-height: .9em;
+    line-height: 40px;
+	/*padding: 10px 30px;*/
+	padding: auto;
+	width: 97.5%;
+	min-width: 240px;
+	margin: 20px 0px 0px 0px;
+	/*clear:left;*/
+}
+.guitar {
+  /*text-align: center;*/
+  /*padding: 30% 48%;*/
+  padding: 25% 48%;
+  min-width: 35px;
+  /*border: 0px solid silver; */
+  box-shadow: 3px 3px 100px #868686;
+  border-radius: 10px;
+  margin: 70px 20px 10px 5px;
+  float:center;
+  background: url(../images/guitarSky2.jpg) no-repeat;
+  background-size: 100%;
+
+}
+.timPic {
+  float: center;
+  border: 1px solid #000; 
+  /*margin: -245px 0px 120px 200px;*/
+  /*padding: 10px;*/
+  width: 200px;
+  height: 430px;
+  background: url(../images/tim.png) no-repeat;
+  background-size: 100%;
+  clear: left;
+}
+
+.article{
+    float:left;
+	text-align: center;
+	box-shadow: 3px 3px 100px #868686;
+	color: #868686;
+	border: 0px solid #000; 
+	background-color: #E0E0E0;
+	border-radius: 10px;
+    font-family: "Oswald",sans-serif;
+	font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+	margin: 20px 0px 0px 5px;
+	padding: 0px 20px 20px 20px;
+	min-width: 195px;
+	width: 95.5%;
+}
+p{
+padding: 5px 0px 5px 0px;
+}
+#facebook{
+	float: left; 
+	padding: 20px 0px 20px 0px;
+	margin: 0px 20px 0px 0px ;
+	width: 100%;
+	min-width: 250px;
+}
+#footer{
+	width: 100%;
+	min-width: 250px;
+}
+#link{
+    color: #868686;
+    text-decoration: none;
+}
+
+
+
+
+
+	

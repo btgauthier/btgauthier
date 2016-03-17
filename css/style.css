@@ -1,0 +1,372 @@
+
+
+body, li, nav, p, u, ul, var {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+
+}
+/* NAV*/
+body {
+	/*background-color: #b8ae9e;*/
+	background-color #fff;
+	margin: 0px 0px 0px -40px;
+	font-family: "Oswald",sans-serif;
+
+}
+
+.menu-header{
+	border: 0px solid #000;
+	/*background-color: #b8ae9e;*/
+	background-color: #fff;
+	/*box-shadow: 1px 1px 30px #868686;*/
+	padding: 2.2% 0px 10px 0px;
+	height: 25px;
+}
+.mainWrapper{
+	position:relative;
+	text-align:center;
+	/*border:1px solid #E0E0E0;*/
+	/*border: 10px solid red;*/
+	margin:0 18%;
+	/*overflow:hidden;*/
+}
+
+
+#top_nav {
+    /*color: #fff;*/
+    display: block;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    position: fixed;
+    text-align: center;
+	margin: -88px 0px 0px 40px;
+	border: 0px solid #000; 
+    width: 100.3%;
+	min-width: 295px;
+    z-index: 999999;
+}
+#top_nav li {
+    color: #fff;
+    display: inline;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    list-style: outside none none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+#top_nav li a {
+    color: #375069;
+    text-decoration: none;
+}
+#top_nav li a:hover {
+    color: #99654D;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px 2px #F1E7E2;
+    /*padding: 0 2px 0 2px;*/
+}
+#top_nav ul ul {
+    display: list-item;
+    list-style: outside none none;
+}
+
+
+.name{
+	float: left;
+	border: 0px solid #000; 
+	/*color: #868686;*/
+	color: #375069;
+	text-align: center;
+	/*text-shadow: 2px 1px #fff;*/
+	font-family: "Oswald",sans-serif;
+	font-size: 400%;
+    font-style: normal;
+    font-weight: 100;
+	line-height: .9em;
+    line-height: 50px;
+	/*padding: 10px 30px;*/
+	padding: auto;
+	width: 97.5%;
+	min-width: 240px;
+	margin: 3.2% 0px 0px 30px;
+	/*clear:left;*/
+}
+.guitar {
+  padding: 28% 48%;
+  min-width: 50px;
+  border: 0px solid #4E3634;
+  /*box-shadow: 1px 1px 0px #282e36;*/
+  /*box-shadow: inset 0px 0px 10px #fff;*/
+  margin: 80px 20px 10px 15px;
+  float:center;
+  -webkit-background: url(../images/guitarSky27.png)  no-repeat ;
+  -webkit-background-size: 100%;
+  background: url(../images/guitarSky27.png)  no-repeat ;
+  background-size: 100%;
+  /*border-radius: 4px;*/
+
+
+}
+
+article{
+    float:left;
+	text-align: left;
+	margin: 4.8%  0% 2.7% 22.5%;
+	min-width: 270px;
+	width: 60%;
+	height: 350px;
+	overflow: auto;
+	color: #4E3634;
+	border: 0px solid #000; 
+    font-family: "Oswald",sans-serif;
+	font-weight: 100;
+    font-size: 14px;
+    line-height: 18px;  
+}
+
+#mainTextPromo{
+	overflow: visible;
+	padding-bottom: 17%;
+}
+
+#mainTextContact{
+	overflow: visible;
+}
+
+h3{
+	font-size: 24px;
+	line-height: 100%;
+
+}
+
+/*Drop cap formatting */
+/*h3 + p::first-letter{
+	font-size:3em;
+	float:left;
+	padding:3px 1px 0 0;
+}*/
+em{
+    font-size: 12px;
+	font-weight: bold;
+	color: #375069;
+	text-transform: uppercase;
+}
+p{
+padding: 5px 10px 5px 0px;
+}
+#facebook{
+	float: left; 
+	padding: 10px 0px 20px 0px;
+	margin: 0px 20px 0px 20px ;
+	width: 100%;
+	min-width: 250px;
+}
+.footer{
+	float: left;
+	width: 100%;
+	min-width: 250px;
+	border: 0px solid #4E3634;
+	margin: 0px 20px 0px 20px ;
+	font-family: "Oswald",sans-serif;
+	font-weight: 100;
+    font-size: 10px;
+	color: #375069;
+}
+#link{
+	color: #4E3634;    
+}
+td {
+word-wrap: normal;
+text-align: center;
+color: #375069;
+padding: 15px 5px 15px 5px;
+}
+/* Venue links */
+/*a:link {color:#FFFACD;}    /* unvisited link */
+a:link {color:#375069;}    /* unvisited link */
+a:visited {color:#375069;} /* visited link */
+a:hover {color:#99654D;}  /* mouse over link */
+a:active {color:#375069;}  /* selected link */
+/* This section can be uncommented to see cell borders within table */
+/*table, td {
+border: 1px solid #FFFACD ;
+}*/
+tr:nth-child(2n){
+	/*background: #E9F0F6;*/
+	background: rgba(233, 240, 246, .6)
+	
+}
+
+tr#inThePast  td  a{
+word-wrap: normal;
+text-align: center;
+color: #375069;
+opacity: .5;
+padding: 15px 5px 15px 5px;
+}
+tr#inThePast  td {
+word-wrap: normal;
+text-align: center;
+color: #375069;
+opacity: .5;
+padding: 15px 5px 15px 5px;
+}
+.tuneMenu{
+    color: #4E3634;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    list-style: outside none none;
+    text-transform: uppercase;
+	margin: 0px 0px 10px 0px;
+	padding: 5% 0 1% 0;
+}
+.video{
+	margin: 20px 0px 0px 0px;
+
+}
+p.linkComment{
+    color: #4E3634;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: none;
+	margin: 0px;
+}
+
+audio {
+    width: 93%;
+}
+
+figure{
+	text-align: center;
+	
+}
+
+
+figure.audioFig {
+    /*background: rgba(55, 80, 105, .4);*/
+    /*background: rgba(255, 255, 255, .4);*/
+    caption-side: top;
+    "Oswald",sans-serif;
+    display: block;
+    margin: 0px 0px 0px 11.5%;
+    padding: 1%;
+    text-align: center;
+    width: 60%;
+}
+#outerBox {
+    border: 0px solid #807270;
+    border-radius: 4px;
+    padding: 0.5em;
+    width: 159%;
+    margin: 5% 0 0 -5%;
+    box-shadow: 2px 2px 10px #888888;
+    background-color: #fff;
+}
+#leftBox{
+	float: left;
+	width: 40%;
+	/*padding: 5% 0 14.2% 2%;*/
+	text-align: left;
+	border: none;
+
+}
+#rightBox{
+	float: left;
+	width: 10%;
+	margin: 1.7% 0 0 0;
+	border: none;
+}
+
+legend.heading{
+	font-size: 1.5em;	
+	
+}
+
+section.mainSect {
+    clear: both;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+}
+section {
+    clear: both;
+}
+#getMusic {
+	clear:both; 
+	float:left; 
+	width:30%
+}
+
+
+#input{
+    clear: both;
+    float: none;
+    margin-bottom: 3em;
+    overflow: visible;
+    margin: 0 0 0 3%;
+}	
+#contactBox{
+	width: 80%;
+	margin: auto;
+}
+#messageText{
+	width: 99%;
+	
+}
+.warning{
+	color: red;
+	font-size: .7em;
+	
+}
+
+/* Special case for gallery */
+
+section p{
+	font-size: .75em;	
+}
+
+
+section#gallerySect figure {
+    clear:none;
+    float:left;
+    height:auto;
+    width: 250px;
+}
+
+section#gallerySect figure  img {
+    width:100%;
+    height:auto;
+}
+figcaption{
+	font-size: .75em;	
+	
+}
+
+/* Section classes */
+
+section.mainSect {
+    clear:both;
+    margin-top:20px;
+    padding:0em;
+    width:100%;
+}
+
+section.centerSect { 
+    clear:both;
+    margin:40px auto;
+    padding:0em;
+    width:82%;
+}
+
+	
+	
+
+
+	

@@ -1,0 +1,237 @@
+html { margin : 0; 
+padding : 0; 
+color : #FFFACD ; 
+text-align : center; }
+
+/* Page background */
+body {
+background: url(images/guitarSky3.jpg) no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+width : 734px;
+margin : 20px auto;
+padding : 0; 
+}
+
+/* Page header */
+h1#banner {
+position: relative;
+width: 736px;
+height: 80px;
+margin : 0; 
+padding: 13px 0px 3px 0px;
+text-align : left;
+color: #2D3041;
+opacity: .9; 
+background-color : #2D3041;
+border: 1px solid #D49C63;
+border-radius: 10px;
+/*box-shadow: -1px -1px 25px #ececea;*/
+overflow: hidden;
+}
+
+/* Site navigation */
+table#navContainer{
+position: absolute;
+width: 737px;
+height: 40px;
+margin : 4px 0px 0px 0px ; 
+padding: 0;
+text-align : left;
+color: #2D3041;
+opacity: .9; 
+background-color : #2D3041;
+border: 1px solid #D49C63;
+border-radius: 10px;
+/*box-shadow: -1px -1px 25px #ececea;*/
+}
+ul#nav_main { list-style-type : none; 
+position : absolute;
+}
+
+/* Navigation buttons */
+li#Home { position : absolute ;
+list-style-type : none; 
+top : 4px; 
+left : 105px; 
+width : 43px; 
+height : 11px; 
+background: url(images/menuHome.jpg) no-repeat 0 0; 
+z-index:99999;
+ }
+li#Schedule { position : absolute; 
+list-style-type : none; 
+top : 4px; 
+left : 187px; 
+width : 74px; 
+height : 11px; 
+background : url(images/menuSchedule.jpg) no-repeat 0 0; 
+z-index:99999;
+}
+li#Music { position : absolute; 
+list-style-type : none; 
+top : 4px; 
+left : 302px; 
+width : 45px; 
+height : 11px; 
+background : url(images/menuMusic.jpg) no-repeat 0 0; 
+z-index:99999;
+}
+li#Biography { position : absolute; 
+list-style-type : none; 
+top : 4px; 
+left : 385px; 
+width : 84px; 
+height : 11px; 
+background : url(images/menuBiography.jpg) no-repeat 0 0; 
+z-index:99999;
+}
+li#Contact { position : absolute; 
+list-style-type : none; 
+top : 4px; 
+left : 507px; 
+width : 68px; 
+height : 11px; 
+background : url(images/menuContact.jpg) no-repeat 0 0; 
+z-index:99999;
+}
+li#Links { position : absolute; 
+list-style-type : none; 
+top : 4px; 
+left : 614px; 
+width : 43px; 
+height : 11px; 
+background : url(images/menuLinks.jpg) no-repeat 0 0; 
+z-index:99999;
+}
+ul#nav_main a { display : block; 
+width : 100px; 
+height : 37px; 
+text-indent : -9999px; 
+text-decoration : none; 
+overflow : hidden; }
+li#Home a:hover { background : url(images/menuHomeOver.jpg) no-repeat; }
+li#Schedule a:hover { background : url(images/menuScheduleOver.jpg) no-repeat; }
+li#Music a:hover { background : url(images/menuMusicOver.jpg) no-repeat; }
+li#Biography a:hover { background : url(images/menuBiographyOver.jpg) no-repeat; }
+li#Contact a:hover { background : url(images/menuContactOver.jpg) no-repeat ; }
+li#Links a:hover { background : url(images/menuLinksOver.jpg) no-repeat ; }
+
+/* Main container holding table with schedule information with guitar image*/
+div#mainContent {
+position: absolute;
+width: 737px;
+margin : 48px 0px 0px 0px ; 
+padding: 100px 0px 0px 0px;
+text-align : left;
+color: #2D3041;
+opacity: .9; 
+background-color : #2D3041;
+border: 1px solid #D49C63;
+border-radius: 10px;
+/*box-shadow: -1px -1px 25px #ececea;*/
+background-image: url(images/ES165.jpg);
+background-repeat: no-repeat; 
+background-position: center 30px; 
+}
+/* Page title with title image embedded in html */
+h2#pageTitle {
+position: relative;
+left:268px;
+top:30px;
+width: 200px;
+height: 60px;
+margin : 10; 
+text-align : center;
+color: #2D3041;
+opacity: .9; 
+background-color : #2D3041;
+overflow: hidden;
+}
+/* Paragraph tag formatting*/
+p {
+color: #fffacd;
+padding: 0px 30px 0px 40px;
+}
+/* Venue links */
+a:link {color:#FFFACD;}    /* unvisited link */
+a:visited {color:#D49C63 ;} /* visited link */
+a:hover {color:#D49C63 ;}  /* mouse over link */
+a:active {color:#FFFACD;}  /* selected link */
+/* This section can be uncommented to see cell borders within table */
+/*table, td {
+border: 1px solid #FFFACD ;
+}*/
+/* Inner table cells */
+table#innerTable {
+width: 720px;
+height: 100%;
+}
+td#date{
+width:150px;
+color: white;
+text-indent : -9999px; 
+background-image: url(scheduleDate.jpg);
+background-repeat: no-repeat; 
+background-position: center;
+}
+td#venue{
+width:150px;
+color: white;
+text-indent : -9999px; 
+background-image: url(scheduleVenue.jpg);
+background-repeat: no-repeat; 
+background-position: center;
+}
+td#location{
+width:150px;
+color: white;
+text-indent : -9999px; 
+background-image: url(scheduleLocation.jpg);
+background-repeat: no-repeat; 
+background-position: center;
+}
+td#information{
+width:150px;
+color: white;
+text-indent : -9999px; 
+background-image: url(scheduleInfo.jpg);
+background-repeat: no-repeat; 
+background-position: center;
+}
+/* Allows a browser to lay out the table faster than the automatic table layout */
+table {
+table-layout: fixed;
+}
+/* Text in table cells wraps to fit cell width */
+td {
+word-wrap: normal;
+text-align: center;
+color: #D49C63;
+padding: 15px 5px 15px 5px;
+}
+/* Change the text color of performance dates that have already past. */
+tr#inThePast  td {
+word-wrap: normal;
+text-align: center;
+color: #666633;
+padding: 15px 5px 15px 5px;
+}
+tr#inThePast  td  a{
+word-wrap: normal;
+text-align: center;
+color: #666633;
+padding: 15px 5px 15px 5px;
+}
+/* Page footer with note image*/
+footer {
+text-align: center;
+}
+footer  p img{
+width: 25px;
+Height: 25 px;
+position: center;
+}
+
+
+

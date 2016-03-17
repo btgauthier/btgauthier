@@ -1,0 +1,47 @@
+/* CSS Document */
+img {
+	behavior: url(/styles/iepngfix.htc);
+}
+#mainWrapper #innerWrapper #leftColumn {
+	width: 260px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 7px;
+	float: left;
+}
+input#email-field {
+ font-size:1.1em;
+	padding: 2px;
+	clear: both;
+}
+#rightColumn p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+h2 {
+margin-bottom: 0px;
+}
+h1 {
+margin-bottom: 0px;
+}
+
+div.rightColumnContent h1{
+	margin-bottom: 10px;
+}
+
+div.quoteContainer {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/Commas.png);
+}
+input.mlinput {
+	width: 8em;
+}
+input#email-field {
+	width: 8em;
+}
+
+#rightColumn h1 {
+margin-left:5px;
+margin-top:5px;
+}

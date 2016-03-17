@@ -1,0 +1,147 @@
+
+body, li, nav, u, ul, var {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* NAV*/
+body {
+    background-color: #fff;
+	/*padding: 20px 0px 0px 0px;*/
+    /*background-image: url("images/background.jpg");*/
+    /*background-repeat: repeat;*/
+    color: #fff;
+	
+}
+.menu-header{
+	border: 0px solid #000;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #ECECEC;
+	padding: 10px 0px 10px 0px;
+
+	
+	
+}
+#top_nav {
+    /*color: #fff;*/
+    display: block;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999999;
+}
+#top_nav {
+    clear: both;
+    color: #fff;
+	margin-top: 0px;
+	margin-bottom: 10px;
+    padding: 0px;
+}
+#top_nav ul {
+}
+#top_nav li {
+    color: #fff;
+    display: inline;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    list-style: outside none none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+#top_nav li a {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+#top_nav li a:hover {
+    color: #797979;
+    text-decoration: none;
+}
+#top_nav ul ul {
+    display: list-item;
+    list-style: outside none none;
+}
+
+.mainWrapper{
+text-align:left;
+position:relative;
+/*z-index:1;*/
+text-align:center; 
+border:1px solid #fff; 
+margin:0 18%;
+/*overflow:hidden;*/
+}
+.name{
+	float: left;
+	border: 0px solid #000; 
+	color: silver;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+    font-family: "Oswald",sans-serif;
+	font-size: 300%;
+    font-style: normal;
+    font-weight: 400;
+	line-height: .9em;
+    line-height: 40px;
+	/*padding: 10px 30px;*/
+	padding: auto;
+	width: 100%;
+
+	margin: 80px 0px 0px 0px;
+	/*clear:left;*/
+}
+.guitar {
+  /*text-align: center;*/
+  /*padding: 30% 48%;*/
+  padding: 20% 48%;
+  /*border: 1px solid silver; 
+  box-shadow: 5px 5px 5px silver;*/
+  border-radius: 10px;
+  margin: 80px 20px 10px 20px;
+  float:center;
+  background: url(../images/guitarSky2.jpg) no-repeat;
+  background-size: 100%;
+}
+.timPic {
+  float: center;
+  border: 1px solid #000; 
+  /*margin: -245px 0px 120px 200px;*/
+  /*padding: 10px;*/
+  width: 200px;
+  height: 430px;
+  background: url(../images/tim.png) no-repeat;
+  background-size: 100%;
+  clear: left;
+}
+
+.article{
+    float:left;
+	text-align: center;
+	color: #868686;
+	border: 0px solid #000; 
+	background-color: #silver;
+	border-radius: 10px;
+    font-family: "Oswald",sans-serif;
+	font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	width: 100%;
+}
+#facebook{
+float: left; 
+padding: 0px;
+margin: 0px;
+width: 100%;
+}
+
+
+
+
+
+
+	

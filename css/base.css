@@ -1,0 +1,19 @@
+/*@import url(medium.css)(min-width:481px) and (max-width: 1537px);*/
+
+@import url(small.css)(min-width:100px) and (max-width: 480px); /*and (orientation:portrait);*/
+/* mobile portrait */
+@import url(small.css)(min-width:100px) and (max-width: 480px) and (orientation:portrait);
+/* tablet landscape */
+@import url(small.css)(min-width:100px) and (max-width: 480px) and (orientation:landscape);
+
+
+/* tablet portrait */
+@import url(medium.css)(device-width: 768px) and (device-height: 1024px) and (orientation:portrait);
+/* tablet landscape */
+@import url(medium.css) (device-width: 768px) and (device-height: 1024px) and (orientation:landscape);
+/*  Other devices */
+@import url(medium.css)(min-width:481px) and (max-width: 1163px);
+
+/* global stylesheet */
+@import url(style.css);
+

@@ -1,0 +1,460 @@
+body, li, nav, p, u, ul, var {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+
+}
+
+body {
+	/*background-color: #b8ae9e;*/
+	background-color: lightgray;
+	margin: -30px 0px 0px 0px;
+	font-family: "Oswald",sans-serif;
+}
+#header{
+	background-color: #fff;
+	border-bottom: 2px solid #000;
+	padding: 1% 0 0 19.6%;
+	min-height: 175px;
+	/*box-shadow: 1px 1px 30px #868686;*/
+	/*padding: 2.2% 0px 10px 0px;*/
+}
+#logo {
+	margin: 3.5% 0 0 0;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	background-color: darkgray;
+	height: 50px;
+	width: 225px;
+	border-radius: 100px 0 100px 0;
+}
+#address {
+	float: right;
+	text-align: center;
+	margin: -4% 23.8% 0 0;
+	padding: 0;
+	width: 225px;
+	/*border:1px solid #000;*/
+}
+
+#coName h1{
+	float: left;
+	font-weight: bold;
+	text-align: left;
+	margin: 1% 0 0 0;
+	padding: 0 0 0 .3%;
+	width: 225px;
+	/*border:1px solid #000;*/
+}
+#phone h1{
+	float: right;
+	text-align: center;
+	margin: 0 24.2% 0 0;
+	width: 225px;
+	/*border:1px solid #000;*/
+	
+}
+.menuBackground{
+	background-color: darkgray;
+	margin: -.3% 0 0 0;
+	padding: .5% 0 .5% 0;
+	/*box-shadow: 1px 1px 30px #868686;*/
+	/*padding: 2.2% 0px 10px 0px;*/
+}
+
+ul#menu-top-navigation {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline; 
+    margin: 0px 25px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+.mainWrapper{
+	position:relative;
+	text-align:center;
+	background-color: #fff;
+	/*border: 1px solid red;*/
+	margin:0 auto;
+	width: 77%;
+	min-width: 960px;
+
+	/*overflow:hidden;*/
+}
+/*#leftSide {
+	border: 1px solid blue;
+	margin: 0;
+	padding: 0;
+	width: 68%;
+}*/
+.slogan{
+	float: left;
+	background-color: darkgray;
+	color: #fff;
+	text-align: center;
+	/*font-family: "Oswald",sans-serif;*/
+	font-size: 200%;
+    font-style: normal;
+    font-weight: 100;
+	line-height: 2em;
+	padding: 14.5% 0 0 0;
+	width: 75.5%;
+	min-width: 736px;
+	margin: 2.5% 0px 0px 30px;
+	border-radius: 0 100px 0 0;
+}
+.mission{
+	float: left;
+	background-color: darkgray;
+	color: #fff;
+	text-align: center;
+	/*font-family: "Oswald",sans-serif;*/
+	font-size: 150%;
+    font-style: normal;
+    font-weight: 100;
+	line-height: 2em;
+	padding: 4% 0 0 0;
+	width: 75.5%;
+	min-width: 736px;
+	margin: .2% 0px 0px 30px;
+	border-radius: 0 0 0 100px;
+}
+.primary {
+  padding: 60% 0 43% 0;
+  min-width: 50px;
+  box-shadow: 0px 10px 10px 10px darkgray;
+  margin: 25px 0 0 0;
+  border:0px solid #000;
+}
+.silhouette1 {
+	background-image: url("../images/groupSilouette.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	margin: 0 0 0 11%;
+	padding: 40%;
+}
+.silhouette2 {
+	background-image: url("../images/groupSilouette2.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	margin: 0 0 0 11%;
+	padding: 40%;
+}
+.silhouette3 {
+	background-image: url("../images/groupSilouette.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	margin: 0 0 0 11%;
+	padding: 40%;
+}
+.service{
+	float:left;
+	background-color: #fff;
+	text-align: justify;
+	margin: -27% 0px 40px 30px;
+	padding: .5% 0 2% 0;
+	min-width: 200px;
+	width: 23.3%;
+	height: 410px;
+    /*font-family: "Oswald",sans-serif;*/
+	font-weight: 100;
+    font-size: 14px;
+    line-height: 18px; 
+    border: 0px solid red; 
+}
+.service h3{
+	text-align: center;
+	padding: 0;
+}
+#mainText {
+	float:left;
+	background-color: darkgray;
+	color: #fff;
+	text-align: left;
+	margin: -.6% 0px 0px 30px;
+	padding: 2% 0 2% 2%;
+	/*min-width: 270px;*/
+	width: 73.5%;
+    /*font-family: "Oswald",sans-serif;*/
+	font-weight: 100;
+    font-size: 14px;
+    line-height: 18px; 
+    border-radius: 10px 10px; 
+}
+#rightColumn { /* Commented out in html */
+	float: right;
+	padding: 0px 10% 0 1px;
+	margin: 2.5% 30px 0 30px;
+	border: 1px solid red;
+	width: 6.5%;
+	height: 1128px;
+	clear: both;
+}
+
+#testimonial {
+	float: left;
+	color: #fff;
+	background-color: darkgray;
+	border-radius: 0px 100px 0px 100px;
+    height: 290px;
+    margin: -71.7% 0 0 30px;
+    padding: 20px 5px 20px 10px;
+    width: 15.3%;
+}
+#insurance {
+	float: left;
+	color: #fff;
+	background-color: darkgray;
+	border-radius: 10px 10px 10px 10px;
+    height: 397px;
+    margin: -40.7% 0 0 30px;
+    padding: 20px 5px 20px 10px;
+    width: 15.3%;
+}
+#cornerPhoto {
+	float: left;
+	color: #fff;
+	background-color: darkgray;
+	border-radius: 0px 100px 0px 100px;
+    height: 263px;
+    margin: -0.6% 0 0 30px;
+    padding: 20px 5px 20px 10px;
+    width: 15.3%;
+}
+
+
+
+
+
+/* SAVED ATTRIBUTES
+#testimonial {
+	float: left;
+	color: #fff;
+	margin: 0 0 0 0;
+	padding: 20px 5px 0px 5px;
+	background-color: darkgray;
+	color: #fff;
+	width: 240%;
+	height: 27.5%;
+	border-radius: 0px 100px 0px 100px;
+}
+#insurance {
+	float: left;
+	color: #fff;
+	margin: 20px 0 0 0;
+	padding: 5px;
+	background-color: darkgray;
+	color: #fff;
+	width: 240%;
+	height: 40%;
+	border-radius: 10px 10px 10px 10px;
+}
+#cornerPhoto {
+	float: left;
+	color: #fff;
+	margin: 18px 0 0 0;
+	padding: 5px;
+	background-color: darkgray;
+	color: #fff;
+	width: 240%;
+	height: 25.6%;
+	border-radius: 100px 0px 100px 0px;
+}*/
+
+h3{
+	font-size: 24px;
+}
+
+/*Drop cap formatting */
+/*h3 + p::first-letter{
+	font-size:3em;
+	float:left;
+	padding:3px 1px 0 0;
+}*/
+p{
+padding: 5px 10px 5px 0px;
+}
+#facebook{
+	float: left; 
+	padding: 10px 0px 20px 0px;
+	margin: 0px 20px 0px 20px ;
+	width: 100%;
+	min-width: 250px;
+}
+.footer{
+	float: left;
+	width: 100%;
+	min-width: 250px;
+	border: 0px solid #4E3634;
+	margin: 30px 20px 0px 20px ;
+	font-family: "Oswald",sans-serif;
+	font-weight: 100;
+    font-size: 10px;
+	color: #000;
+}
+#link{
+	color: #4E3634;    
+}
+td {
+word-wrap: normal;
+text-align: center;
+color: #375069;
+padding: 15px 5px 15px 5px;
+}
+/* Venue links */
+/*a:link {color:#FFFACD;}    /* unvisited link */
+a:link {color:#fff;}    /* unvisited link */
+a:visited {color:#fff;} /* visited link */
+a:hover {color:#000;}  /* mouse over link */
+a:active {color:#375069;}  /* selected link */
+/* This section can be uncommented to see cell borders within table */
+/*table, td {
+border: 1px solid #FFFACD ;
+}*/
+tr:nth-child(2n){
+	/*background: #E9F0F6;*/
+	background: rgba(233, 240, 246, .6)
+	
+}
+
+
+
+
+p.linkComment{
+    color: #4E3634;
+    font-family: "Maven Pro",Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: none;
+	margin: 0px;
+}
+
+audio {
+    width: 93%;
+}
+
+figure{
+	text-align: center;
+	
+}
+
+
+figure.audioFig {
+    /*background: rgba(55, 80, 105, .4);*/
+    /*background: rgba(255, 255, 255, .4);*/
+    caption-side: top;
+    "Oswald",sans-serif;
+    display: block;
+    margin: 0px 0px 0px 11.5%;
+    padding: 1%;
+    text-align: center;
+    width: 60%;
+}
+#outerBox {
+    border: 1px solid #807270;
+    border-radius: 4px;
+    padding: 0.5em;
+    width: 400%;
+    margin: 0px 0px 0px -8%;
+}
+#leftBox{
+	float: left;
+	width: 47%;
+	padding: 5% 0 11.5% 2%;
+	text-align: left;
+}
+#rightBox{
+	float: right;
+	width: 30%;
+	margin: 1.7% 0 0 0;
+}
+
+section.mainSect {
+    clear: both;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+}
+section {
+    clear: both;
+}
+
+
+
+#input{
+    clear: both;
+    float: none;
+    margin-bottom: 3em;
+    overflow: visible;
+    margin: 0 0 0 3%;
+}	
+#contactBox{
+	width: 80%;
+	margin: auto;
+}
+#messageText{
+	width: 99%;
+	
+}
+.warning{
+	color: red;
+	font-size: .7em;
+	
+}
+
+/* Special case for gallery */
+
+section p{
+	font-size: .75em;	
+}
+
+
+section#gallerySect figure {
+    clear:none;
+    float:left;
+    height:auto;
+    width: 250px;
+}
+
+section#gallerySect figure  img {
+    width:100%;
+    height:auto;
+}
+figcaption{
+	font-size: .75em;	
+	
+}
+
+/* Section classes */
+
+section.mainSect {
+    clear:both;
+    margin-top:20px;
+    padding:0em;
+    width:100%;
+}
+
+section.centerSect { 
+    clear:both;
+    margin:40px auto;
+    padding:0em;
+    width:82%;
+}
+
+	
+	
+
+
+	

@@ -1,0 +1,276 @@
+body, li, nav, p, u, ul, var {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+}
+body {
+	/*background-color: #b8ae9e;*/
+	background-color #fff;
+	margin: 0px 0px 0px -40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/*.menu-header{
+	border: 1px solid #000;
+	/*background-color: #b8ae9e;*/
+	/*background-color: #fff;
+	/*box-shadow: 1px 1px 30px #868686;*/
+	/*padding: 2.2% 0px 10px 0px;
+	height: 25px;
+}*/
+.mainWrapper{
+	position:relative;
+	text-align:center;
+	margin:auto auto;
+	padding 10px 10px
+	max-width: 68.8%;
+	min-width: 850px;
+	height: 1250px;
+	border:0px solid red;
+}
+
+h1, h2, h3, h4, h5, h6 
+	{
+	  display: block;
+	}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+ h2 {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: auto auto;
+  text-align: center;
+}
+h4{
+	font-size: 1em;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+#Furnished {
+	margin: 28px 0 0 0;
+	padding: 1px;
+}
+#forRent {
+	margin: 3px 0 0 0;
+	padding: 1px;
+}
+#fortCollins {
+	margin: 5px 0 0 0;
+	padding: 1px;
+}
+#available {
+	margin: 5px 0 0 0;
+	padding: 1px;	
+}
+/*#slideBox {
+	margin: -18px auto 5px auto;
+	padding: 1px 1px 1px 1px;
+	width: 50%;
+	height: 500px;
+	border: 1px solid green;
+}*/
+
+
+#centerColumn {
+	position: relative;
+	margin: -10px auto 0 auto;
+	width: 90%;
+	height: 650px;
+	border: 0px solid red;
+}
+#inlineBox {
+    border: 0px solid blue;
+    height: 2em;
+    margin: 5px auto 0 auto;
+    padding-left: 10px;
+    width: 185px;
+}
+.inline {
+    float: left;
+    list-style-type: disc;
+    text-align: center;
+    /*padding-right: 3%;*/
+    margin: 0 0 0 8%;   
+}
+#price {
+    border: 0px solid blue;
+    height: 1em;
+    margin: 5px auto 0 auto;
+    padding: 1px 0px 1px 0px;
+    text-align: center;	
+}
+
+article{
+	text-align: left;
+	margin: auto auto;
+	min-width: 180px;
+	width: 600px;
+	/*width: 100%;
+	min-width: 850px;*/
+	height: 550px;
+	overflow: visible;
+	font-weight: 100;
+    font-size: 14px;
+    line-height: 18px;  
+    border: 0px solid green;	 
+}
+.infoBox1 {
+	float: left;
+	margin: 5px 0 5px 20px;
+	padding: 1px 0 10px 0;
+	width: 185px;
+	height: 400px;
+	border: 0px solid orange;
+}
+.infoBox2 {
+	float: left;
+	margin: 5px 0 5px 0;
+	padding: 1px 0 10px 0;
+	width: 185px;
+	height: 220px;
+	border: 0px solid orange;
+}
+.infoBox3 {
+	float: left;
+	margin: 5px 0 5px 5%;
+	padding: 1px 0 10px 0;
+	width: 175px;
+	height: 320px;
+	border: 0px solid orange;
+}
+
+
+
+#indent {
+	margin: 0 0 0 12px;
+	
+}
+
+
+p{
+padding: 5px 10px 5px 0px;
+}
+
+figure{
+	text-align: center;	
+}
+
+
+#outerBox {
+    border: 0px solid #807270;
+    border-radius: 4px;
+    padding: 0.5em;
+    width: 159%;
+    margin: 5% 0 0 -5%;
+    box-shadow: 2px 2px 10px #888888;
+    background-color: #fff;
+}
+#leftBox{
+	float: left;
+	width: 40%;
+	/*padding: 5% 0 14.2% 2%;*/
+	text-align: left;
+	border: none;
+
+}
+#rightBox{
+	float: left;
+	width: 10%;
+	margin: 1.7% 0 0 0;
+	border: none;
+}
+
+legend.heading{
+	font-size: 1.5em;		
+}
+
+section.mainSect {
+    clear: both;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+}
+section {
+    clear: both;
+}
+#input{
+    clear: both;
+    float: none;
+    margin-bottom: 3em;
+    overflow: visible;
+    margin: 0 0 0 3%;
+}	
+#contactBox{
+	width: 80%;
+	margin: auto;
+}
+#messageText{
+	width: 99%;
+	
+}
+.warning{
+	color: red;
+	font-size: .7em;
+}
+
+/* Special case for gallery */
+
+section p{
+	font-size: .75em;	
+}
+
+
+section#gallerySect figure {
+    clear:none;
+    float:left;
+    height:auto;
+    width: 250px;
+}
+
+section#gallerySect figure  img {
+    width:100%;
+    height:auto;
+}
+figcaption{
+	font-size: .75em;	
+}
+
+/* Section classes */
+
+section.mainSect {
+    clear:both;
+    margin-top:20px;
+    padding:0em;
+    width:100%;
+}
+
+section.centerSect { 
+    clear:both;
+    margin:40px auto;
+    padding:0em;
+    width:82%;
+}
+
+footer {
+	float: left;
+	margin: 20px 0 0 35%;
+	padding: 0 0 20px 0;
+	clear: left;
+
+}
+
+	
+	
+
+
+	

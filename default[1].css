@@ -1,0 +1,308 @@
+/* CSS Document */
+@import "forms.css";
+@import "tables.css";
+html {
+	height: 100.01%;
+}
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+body {
+	background-color: #5373A2;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+p{
+	color: #fff;
+	text-decoration: none;
+	word-spacing: normal;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+#leftColumn p{
+	font-size: 1.1em;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+a {
+	font-size: 1em;
+	color: #FF9900;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF9900;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF9900;
+}
+
+
+a:active {
+	text-decoration: none;
+	color: #FF9900;
+}
+h1 {
+	margin-top: 0px;
+	margin-left:0px;
+	color: #FF9900;
+	font-size: 1.3em;
+}
+h1.newsHeader {
+	margin-bottom:0px;
+}
+
+h2 {
+	color: #FF9900;
+	margin-top: 0px;
+	font-size: 1.3em;
+}
+h4 {
+	color: #fff;
+	margin: 0px;
+	margin-bottom:10px;
+	font-size: 1.1em;
+}
+#rightColumn h1 {
+	margin-left: 5px;
+	margin-top: 2px;
+}
+#rightColumn div.rightColumnContent h1 {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#leftColumn h2 {
+	font-size: 1em;
+}
+div.leftHeader h2 {
+	margin-left: 5px;
+}
+h3 {
+	color: #FF9900;
+	margin-top: 0px;
+}
+h4 {
+	margin-top: 0px;
+}
+h5 {
+	color: #FF9900;
+	margin-top: 0px;
+}
+h6 {
+	color: #FF9900;
+}
+#mainWrapper { text-align: center; width: 770px; background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/mainWrapperBgFill.png'); 
+               background-repeat: repeat-y; margin-left: auto; margin-right: 
+               auto; margin-top: 0px; margin-bottom: 0px; padding: 0px; 
+               background-position: center 50% }
+#mainWrapper #headerWrapper { background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/headerBg.jpg'); 
+               background-repeat: no-repeat; height: 75px; width: 100%; 
+               background-position: center 50% }
+#menu {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	top: 44px;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menu li {
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 9px;
+}
+#mainWrapper #innerWrapper {
+	width: 100%;
+	text-align: left;
+}
+#mainWrapper #innerWrapper #leftColumn {
+	width: 260px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	float: left;
+}
+#mainWrapper #innerWrapper #leftColumn div.leftHeader { background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/leftColumnHeaderBg.png'); 
+               background-repeat: no-repeat; height: 22px; width: 260px; 
+               margin: 0px; padding-left: 0px; padding-right: 0px; 
+               padding-top: 3px; padding-bottom: 0px }
+#mainWrapper #innerWrapper #leftColumn #emailList { width: 250px; background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/leftColumnBgFill.png'); 
+               background-repeat: repeat-x; margin-left: 0px; margin-right: 
+               0px; margin-top: 0px; padding: 5px; background-position: 
+               top 50% }
+#mainWrapper #innerWrapper #leftColumn #leftColumnContent { width: 245px; background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/leftColumnBgFill.png'); 
+               background-repeat: repeat-x; margin-left: 0px; margin-right: 
+               0px; margin-top: 0px; margin-bottom: 10px; padding-left: 5px; 
+               padding-right: 10px; padding-top: 10px; background-position: 
+               top 50% }
+#mainWrapper #innerWrapper #rightColumn {
+	padding: 0px;
+	width: 470px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	float: left;
+}
+#mainWrapper #innerWrapper #rightColumn .rightheader { background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/rightColumnHeaderBg.png'); 
+               background-repeat: no-repeat; height: 22px; width: 100%; 
+               margin: 0px; padding-top: 3px; background-position: top 50% }
+#mainWrapper #innerWrapper #rightColumn .rightColumnContent { width: 450px; background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/rightColumnBgFill.png'); 
+               background-repeat: repeat-x; margin-left: 0px; margin-right: 
+               0px; margin-top: 0px; margin-bottom: 10px; padding-left: 10px; 
+               padding-right: 10px; padding-top: 10px; background-position: 
+               top 50% }
+div.quoteContainer { background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/invertedCommas.png'); 
+               background-repeat: no-repeat; padding: 10px; 
+               background-position: left top }
+div.outerQuoteContainer { background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/Commas.png'); 
+               background-repeat: no-repeat; background-position: right bottom }
+img.newsImageLeft {
+	padding-right: 5px;
+	padding-bottom: 2px;
+	float: left;
+}
+img.newsImageRight {
+	padding-right: 5px;
+	padding-bottom: 2px;
+	float: right;
+}
+div.pagination {
+	background:#3b547c;
+	margin-bottom: 10px;
+	font-weight: bold;
+	padding: 3px;
+	font-size: 1em;
+}
+#rightColumn p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#rightColumn p.quotation {
+	margin-bottom: 0px;
+}
+div.martinsChoice h3{
+	clear:both;
+	margin: 0px;
+	font-size: 1.2em;
+}
+div.martinsChoice p.martinsChoiceInfo {
+	font-size: 1.1em;
+}
+div.martinsChoice p {
+	font-size: 1.2em;
+}
+div.martinsChoice img.martinsChoiceImg {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+#subsectionLinks {
+	margin-bottom: 10px;
+	background:#3b547c;
+	height: 25px;
+}
+#subsectionLinks ul {
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+}
+#subsectionLinks li {
+	display:block;
+	float: left;
+	font-size: 1.2em;
+	padding: 5px;
+}
+p.tablePara {
+	margin: 0px;
+	font-size: 1em;
+}
+div.recordingDetails p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 0.9em;
+}
+div.recordingDescriptions {
+	margin-bottom: 10px;
+}
+span.quote {
+	display: block;
+	padding-left: 0px;
+	color:#FF9900;
+	font-weight:bold;
+	text-align: right;
+}
+ul#links li {
+	font-size:1.2em;
+}
+
+div.recordingDetails h2{
+	margin-bottom: 0px;
+}
+#footer      { width: 100%; height: 45px; background-color: #FFFFFF; background-image: 
+               url('../../../../Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/footerBg.png'); 
+               background-repeat: no-repeat; background-position: center 50% }
+#footer p {
+	color:#466594;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+tbody tr.ruled td .zebra{
+	color: #FF9900;
+	background-color: #3B547C ; 
+}
+	
+/* Opera fix */
+head:first-child+body tr.ruled td{
+	color: #FF9900;
+	background-color: #3B547C ;
+}
+
+/* news stuff */
+div.rightColumnContent div.cmsNewslist {
+	margin-bottom: 10px;
+}
+div.rightColumnContent div.cmsNewslist div.newsListTitle {
+	margin:0px;
+}
+#rightColumn div.newsListTitle h2,h4,p {
+ margin: 0px;
+}
+#rightColumn div.newsListTitle h4 {
+ margin: 0px;
+ color:#fff;
+ size: 0.9em;
+}
+h4 {
+	font-size: 10px;
+}

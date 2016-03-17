@@ -1,0 +1,122 @@
+			#c-carousel {
+				width: 32.25806451612903%;
+				min-width: 280px;
+				margin: auto auto;
+				padding: 1px;
+				background-color: #fff; /* White */
+				border: 0px solid black;
+			}
+			#wrapper {  /* Slide show container */
+				background-color: #fff;
+				margin: 30px auto 0 auto; /* Slide show position from top of page */
+				padding: 1px 1px 1px 1px;
+				border: 0px solid red;
+			}
+			#inner {
+				position: relative;
+				width: 100%;
+				height: 405px;
+				overflow: hidden;
+				border: 0px solid blue;
+			}
+			
+			#slide1 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_0020.png");
+				background-repeat: no-repeat;
+			}
+							
+			#slide2 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_0032.png");
+				background-repeat: no-repeat;
+			}
+						
+			#slide3 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_0055.png");
+				background-repeat: no-repeat;
+			}
+						
+			/*#slide4 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_0054.png");
+				background-repeat: no-repeat;
+			}*/
+				
+			#slide5 {
+				margin: 0px 0 0 82px;
+				padding: 0px 0px 500px 334px;
+				background-image: url("../images/rental/DSC_0028.png");
+				background-repeat: no-repeat;
+			}
+			#slide6 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_0052.png");
+				background-repeat: no-repeat;
+			}
+			#slide7 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_025.png");
+				background-repeat: no-repeat;
+			}
+			#slide8 {
+				margin: 0px 0 0 0;
+				padding: 0px 250px 500px 250px;
+				background-image: url("../images/rental/DSC_0063.png");
+				background-repeat: no-repeat;
+			}
+			
+			/* Pause and play button postioning */
+			#navi { 
+				width: 600px;
+				height: 70px;
+				position: absolute;
+				bottom: -70px;
+				left: 0;
+				z-index: 10;
+			}
+			#timer {
+				background-color: #BAB8B7;
+				width: 0;
+				height: 5px;
+				position: absolute;
+				z-index: 20;
+				top: 0px;
+				left: 0;
+			}
+			#prev, #next, #play {
+				display: block;
+				position: absolute;
+				z-index: 30;
+			}
+			#prev, #next {
+				width: 47px;
+				height: 47px;
+				top: 13px;
+			}
+			#play {
+				width: 53px;
+				height: 53px;
+				top: 13px;
+				background: url(../images/ui/pause2.png) 0 0 no-repeat transparent;
+				left: 50%;
+				margin-left: -65px;
+			}
+			#play.paused {
+				background: url(../images/ui/play2.png) 0 0 no-repeat transparent;
+			}
+			#prev {
+				background: url(../images/ui/prev2.png) 0 0 no-repeat transparent;
+				left: 105px;
+			}
+			#next {
+				background: url(../images/ui/next2.png) 0 0 no-repeat transparent;
+				right: 188px;
+			}
